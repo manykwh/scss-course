@@ -1,0 +1,23 @@
+body {
+  background-color: #f6f6f6;
+  height: 100vh;
+  height: 100vw;
+}
+
+.page-wrapper {
+  padding: 21px;
+}
+.page-wrapper .featured {
+  color: DodgerBlue;
+}
+.page-wrapper .page-content {
+  background-color: LightCoral;
+  padding: 42px;
+  color: #ffffff;
+}
+
+.secondary-page-content {
+  color: #3ae39f;
+}
+
+/*# sourceMappingURL=guide-variable-scope-scss.css.map */

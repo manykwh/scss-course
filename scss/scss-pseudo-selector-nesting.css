@@ -1,0 +1,35 @@
+body {
+  background-color: #f6f6f6;
+  height: 100vh;
+  height: 100vw;
+}
+
+.container {
+  font-family: Verdana;
+  font-size: 0.8rem;
+}
+
+.page-wrapper {
+  padding: 21px;
+}
+.page-wrapper .featured {
+  color: LightCoral;
+}
+.page-wrapper .featured .subheading a {
+  color: CornflowerBlue;
+  text-decoration: none;
+}
+.page-wrapper .featured .subheading a:hover {
+  color: DarkOliveGreen;
+  text-decoration: underline;
+}
+.page-wrapper .page-content {
+  background-color: LightCoral;
+  padding: 42px;
+  color: #f6f6f6;
+}
+.page-wrapper .page-content .container {
+  font-family: courier;
+}
+
+/*# sourceMappingURL=scss-pseudo-selector-nesting.css.map */

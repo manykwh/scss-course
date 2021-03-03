@@ -1,0 +1,30 @@
+body {
+  background-color: #f6f6f6;
+  height: 100vh;
+  height: 100vw;
+}
+
+.container {
+  font-family: Verdana;
+  font-size: 0.8em;
+}
+
+.page-wrapper {
+  padding: 21px;
+}
+.page-wrapper .featured {
+  color: LightCoral;
+}
+.page-wrapper .featured .subheading {
+  color: Red;
+}
+.page-wrapper .page-content {
+  background-color: LightCoral;
+  padding: 42px;
+  color: #f6f6f6;
+}
+.page-wrapper .page-content .container {
+  font-family: courier;
+}
+
+/*# sourceMappingURL=guide-scss-nesting.css.map */
