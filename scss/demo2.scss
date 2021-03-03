@@ -1,0 +1,30 @@
+$white: #ffffff;
+$master-site-color: DarkRed;
+
+body {
+	background-color: $white;
+	height: 100vh;
+	height: 100vw;
+}
+
+.container {
+	font-family: Verdana;
+	font-size: 0.8rem;
+}
+
+.page-wrapper {
+	padding: 21px;
+
+	.featured {
+		color: i$master-site-color;
+	}
+
+	.page-content {
+		background-color: DarkRed;
+		padding: 42px;
+		color: $white;
+		.container {
+			font-family: courier;
+		}
+	}
+}
