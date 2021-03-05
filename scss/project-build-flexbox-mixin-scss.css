@@ -1,28 +1,20 @@
 .container {
   display: flex;
-  justify-content: 0;
-  flex: 0;
-  flex-direction: 0;
 }
 .container .item {
   display: flex;
   justify-content: space-between;
   flex: 1;
-  flex-direction: 0;
   border: 1px solid grey;
   border-radius: 5px;
   margin-bottom: 10px;
 }
 .container .item .content {
   display: flex;
-  justify-content: 0;
-  flex: 0;
-  flex-direction: 0;
 }
 .container .item .content .metadata {
   display: flex;
   justify-content: center;
-  flex: 0;
   flex-direction: column;
   margin-left: 20px;
 }
@@ -31,16 +23,15 @@
 }
 .container .item .btn-group {
   display: flex;
-  justify-content: 0;
-  flex: 0;
-  flex-direction: 0;
+  align-items: center;
 }
 .container .item .btn-group .button {
   height: 100%;
+  width: 42px;
   display: flex;
   justify-content: center;
-  flex: 0;
   flex-direction: row;
+  align-items: center;
   font-size: 2em;
 }
 .container .item .btn-group .button a {
