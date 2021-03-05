@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  justify-content: 0;
+  flex: 0;
+  flex-direction: 0;
+}
+.container .item {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  flex-direction: 0;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.container .item .content {
+  display: flex;
+  justify-content: 0;
+  flex: 0;
+  flex-direction: 0;
+}
+.container .item .content .metadata {
+  display: flex;
+  justify-content: center;
+  flex: 0;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.container .item .content .metadata .title {
+  margin: 0px;
+}
+.container .item .btn-group {
+  display: flex;
+  justify-content: 0;
+  flex: 0;
+  flex-direction: 0;
+}
+.container .item .btn-group .button {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex: 0;
+  flex-direction: row;
+  font-size: 2em;
+}
+.container .item .btn-group .button a {
+  color: green;
+  text-decoration: none;
+}
+.container .item .btn-group .button:hover {
+  background-color: maroon;
+  cursor: pointer;
+}
+.container .item .btn-group .button:hover a {
+  color: white;
+}
+
+/*# sourceMappingURL=project-build-flexbox-mixin-scss.css.map */
